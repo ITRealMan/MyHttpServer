@@ -37,4 +37,10 @@ public class MainActivity extends AppCompatActivity {
     private static String intToIpAddr(int ip) {
         return (ip & 0xff) + "." + ((ip>>8)&0xff) + "." + ((ip>>16)&0xff) + "." + ((ip>>24)&0xff);
     }
+
+    /**
+     * 添加测试
+     */
+    private void test(){
+    }
 }
